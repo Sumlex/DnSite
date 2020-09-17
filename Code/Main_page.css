@@ -1,0 +1,71 @@
+body
+{
+    background: url("IMG/MainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    /*background-attachment: fixed | scroll | local[, fixed | scroll | local]*/
+    background-position: center;
+    background-size:cover;
+}
+h1 {
+    color: black;
+    text-align: center;
+
+    font-family: 'Lobster'; 
+    font-size: 100px;
+    /*
+    Шрифт, загруженный с googleapis.com
+    */
+}
+
+h5{
+    color: black;
+    text-shadow: #7ea4bd 0 1px 0;
+
+    font-family: 'Lobster'; 
+    font-size: 30px;
+    
+    text-shadow: #7ea4bd 0 1px 0;
+    font-size: 20px;
+}
+.large {
+    width: 250px;
+   height: 26px;
+}
+
+.knopka01 {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  color: rgb(0,79,86);
+  user-select: none;
+} 
+.knopka01:hover {
+  color: rgb(0,59,66);
+  cursor: pointer;
+}
+.knopka01:active {
+  padding-bottom: 1px;
+  box-shadow:
+   inset rgba(0,0,0,1) 0 1px 3px,
+   inset rgba(0,0,0,.6) 0 -2px 5px,
+   inset rgba(252,255,255,.7) 0 2px 5px,
+   0 1px rgba(255,255,255,.08);
+  color: rgb(128,207,214);
+}
+h3  {
+ text-align: center;
+    color: black;
+
+    font-size: 20px;
+}
